@@ -1,5 +1,5 @@
-import dbConnect from '../../utils/dbConnect'; // Ensure you have a util to connect to MongoDB
-import Activity from '../../models/ActivityModel';
+import dbConnect from '../utils/dbConnect'; // Ensure you have a util to connect to MongoDB
+import Activity from '../../models/ActivitiesModel';
 
 export default async function handler(req, res) {
   await dbConnect();
